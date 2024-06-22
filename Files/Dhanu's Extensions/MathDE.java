@@ -310,5 +310,10 @@ public class MathDE {
   public static float randomRange(float min, float max) {
     return (float) (Math.random() * (max - min) + min);
   }
-  
+
+  // Maps a value from one range to another.
+  public static float map(float value, float fromMin, float fromMax, float toMin, float toMax) {
+    return (value - fromMin) / (fromMax - fromMin) * (toMax - toMin) + toMin;
+  }
+
 }
