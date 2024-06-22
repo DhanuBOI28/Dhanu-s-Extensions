@@ -316,4 +316,10 @@ public class MathDE {
     return (value - fromMin) / (fromMax - fromMin) * (toMax - toMin) + toMin;
   }
 
+  // Rounds a float value to the specified number of decimal places.
+  public static float round(float value, int decimalPlaces) {
+    float scale = (float) Math.pow(10, decimalPlaces);
+    return Math.round(value * scale) / scale;
+  }
+  
 }
