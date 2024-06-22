@@ -305,4 +305,10 @@ public class MathDE {
   public static float hypotenuse(float a, float b) {
     return sqrt(a * a + b * b);
   }
+
+  // Returns a random float number between min [inclusive] and max [inclusive].
+  public static float randomRange(float min, float max) {
+    return (float) (Math.random() * (max - min) + min);
+  }
+  
 }
