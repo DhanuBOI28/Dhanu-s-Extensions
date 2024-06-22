@@ -1,4 +1,4 @@
-/*
+//*
 * Author: Dhanu_
 * Version: 1.0
 */
@@ -289,4 +289,10 @@ public class MathDE {
   public static float logBase(float value, float base) {
     return (float) (Math.log(value) / Math.log(base));
   }
+  
+  // Returns the modulus of a value and a divisor.
+  public static float mod(float value, float divisor) {
+    return ((value % divisor) + divisor) % divisor;
+  }
+  
 }
