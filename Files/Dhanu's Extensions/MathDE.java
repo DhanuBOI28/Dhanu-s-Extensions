@@ -294,9 +294,15 @@ public class MathDE {
   public static float mod(float value, float divisor) {
     return ((value % divisor) + divisor) % divisor;
   }
+  
   // Returns the factorial of a non-negative integer n.
   public static float factorial(float n) {
     if (n == 0) return 1;
     return n * factorial(n - 1);
+  }
+  
+  // Returns the hypotenuse of a right-angled triangle given sides a and b.
+  public static float hypotenuse(float a, float b) {
+    return sqrt(a * a + b * b);
   }
 }
