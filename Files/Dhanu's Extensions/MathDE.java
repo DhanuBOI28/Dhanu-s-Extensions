@@ -3,6 +3,7 @@
 * Version: 1.0
 */
 public class MathDE {
+  
   // The infamous ''3.14159265358979...'' value (RO).
   public static final float PI = (float) Math.PI;
 
