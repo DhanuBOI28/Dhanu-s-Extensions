@@ -1,6 +1,7 @@
 /*
 * Author: Dhanu_
 * Version: 1.0
+* LastUpdateDate: 28/6/2024
 */
 public class MathDE {
   
