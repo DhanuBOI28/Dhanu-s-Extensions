@@ -1,2 +1,2 @@
-publiv class Vector3DE{
+public class Vector3DE{
 }
